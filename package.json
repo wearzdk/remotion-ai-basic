@@ -1,0 +1,54 @@
+{
+  "name": "remotion-templates",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@code-hike/lighter": "^1.0.3",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@remotion/captions": "4.0.432",
+    "@remotion/cli": "4.0.432",
+    "@remotion/google-fonts": "4.0.432",
+    "@remotion/layout-utils": "4.0.432",
+    "@remotion/lottie": "^4.0.432",
+    "@remotion/media": "4.0.432",
+    "@remotion/media-parser": "4.0.432",
+    "@remotion/media-utils": "4.0.432",
+    "@remotion/paths": "^4.0.432",
+    "@remotion/shapes": "^4.0.432",
+    "@remotion/tailwind-v4": "4.0.432",
+    "@remotion/three": "^4.0.432",
+    "@remotion/zod-types": "4.0.432",
+    "codehike": "^1.0.7",
+    "d3-shape": "^3.2.0",
+    "framer-motion": "^12.35.0",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.577.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-katex": "^3.1.0",
+    "react-simple-maps": "^3.0.0",
+    "react-syntax-highlighter": "^16.1.1",
+    "recharts": "^3.7.0",
+    "remotion": "4.0.432",
+    "remotion-bits": "^0.1.14",
+    "simplex-noise": "^4.0.3",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotionb studio",
+    "build": "remotionb bundle",
+    "upgrade": "remotionb upgrade"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
