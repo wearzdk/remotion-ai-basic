@@ -23,6 +23,7 @@
     "@remotion/three": "^4.0.432",
     "@remotion/zod-types": "4.0.432",
     "codehike": "^1.0.7",
+    "culori": "^4.0.2",
     "d3-shape": "^3.2.0",
     "framer-motion": "^12.35.0",
     "gsap": "^3.14.2",
